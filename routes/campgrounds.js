@@ -33,7 +33,6 @@ router.post("/",middleware.isLoggedIn, function(req, res){
             console.log(err)
         }else{
             //redirect to campgrounds page
-            console.log(newlycamp)
              res.redirect("/campgrounds")
         }
     })
