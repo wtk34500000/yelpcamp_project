@@ -13,6 +13,11 @@ body{
   color: #fff;
 }
 
+#landing-header p {
+  color: #FFF;
+  font-family: 'Charmonman', cursive;
+}
+
 .slideshow { 
   position: fixed;
   width: 100%;
